@@ -1,0 +1,2 @@
+*YOUTUBE*==say "Quel morceau voulez vous jouer ?"
+>(*)==jv_pg_yp_play_song "(1)" True
