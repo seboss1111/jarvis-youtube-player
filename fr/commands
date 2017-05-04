@@ -1,2 +1,2 @@
 *YOUTUBE*==say "Quel morceau voulez vous jouer ?"
->(*)==jv_pg_yp_play_song "(1)" True
+>(*)==jv_pg_yp_play_song "(1)" True && say "Le morceau (1) va bientot se lancer."
