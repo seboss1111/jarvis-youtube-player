@@ -1,5 +1,5 @@
 ## Description
-Play a music taken from youtube with <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a>.
+Play a music or a video taken from youtube with <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a>.
 
 
 <img src="https://raw.githubusercontent.com/QuentinCG/jarvis-youtube-player/master/presentation.png" width="500">
@@ -7,11 +7,17 @@ Play a music taken from youtube with <a target="_blank" href="http://domotiquefa
 
 ## Usage
 ```
-You: Lance une musique avec youtube
+You: Lance une musique youtube
 Jarvis: Quel morceau voulez vous jouer ?
 You: Eminem Lose It
 Javis: Le morceau Eminem Lose It va bientot se lancer.
 [Après quelques secondes (le temps du téléchargement de la vidéo), le morceau de musique se lance]
+
+You: Lance une vidéo youtube
+Jarvis: Quelle vidéo voulez vous lancer ?
+You: Eminem Lose It
+Javis: La vidéo Eminem Lose It va bientot se lancer.
+[Après quelques secondes (le temps du téléchargement de la vidéo), la vidéo se lance]
 ```
 
 
@@ -19,11 +25,13 @@ Javis: Le morceau Eminem Lose It va bientot se lancer.
 
 1) Connect a speaker to the Jack port or to any USB port.
 
-2) Add this plugin to your <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> (<a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">more info here</a>): ```./jarvis.sh -p https://github.com/QuentinCG/jarvis-youtube-player```
+2) Connect a screen.
 
-3) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-youtube-player/blob/master/config.sh">configuration file</a> to match your requirements (you can get the card and peripheral with `aplay -l`).
+3) Add this plugin to your <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> (<a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">more info here</a>): ```./jarvis.sh -p https://github.com/QuentinCG/jarvis-youtube-player```
 
-4) Enjoy
+4) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-youtube-player/blob/master/config.sh">configuration file</a> to match your requirements (you can get the card and peripheral with `aplay -l`).
+
+5) Enjoy
 
 
 ## Author

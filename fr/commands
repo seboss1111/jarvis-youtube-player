@@ -1,2 +1,4 @@
-*YOUTUBE*==say "Quel morceau voulez vous jouer ?"
+*MUSIQUE*YOUTUBE*|*YOUTUBE*MUSIQUE*==say "Quel morceau voulez vous jouer ?"
 >(*)==song="(1)" && jv_pg_yp_play_song "$song" True && say "Le morceau $song va bientot se lancer."
+*YOUTUBE*VIDEO*|*VIDEO*YOUTUBE*==say "Quelle video voulez vous lancer ?"
+>(*)==video="(1)" && jv_pg_yp_play_video "$video" True && say "La vidéo $video va bientot se lancer."
