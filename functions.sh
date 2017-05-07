@@ -42,3 +42,10 @@ jv_pg_yp_play_video()
     jv_pg_yp_play_video_synchronously "$1" >/dev/null 2>/dev/stdout &
   fi
 }
+
+# Stop a launched Youtube video/music
+jv_pg_yp_stop()
+{
+  pkill youtube-dl
+  pkill mplayer
+}
