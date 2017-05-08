@@ -4,6 +4,3 @@ var_jv_pg_yp_audio_peripheral="0" # Default peripheral for RPI: 0 for jack, 1 fo
 
 # Video configuration
 var_jv_pg_yp_video_full_screen="True" # Show video as full screen (True/False)
-
-# Debug configuration
-var_jv_pg_yp_verbose="True" # Show debug information (True/False)
