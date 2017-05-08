@@ -26,4 +26,6 @@ jv_pg_yp_stop()
 {
   pkill youtube-dl
   pkill mplayer
+
+  return 0
 }
