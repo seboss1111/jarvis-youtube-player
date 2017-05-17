@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 # Install pip (needed to install and upgrade youtube video downloader)
 [[ -z $(which python-pip) ]] && sudo apt-get --yes --force-yes install python-pip
 [[ -z $(which python3-pip) ]] && sudo apt-get --yes --force-yes install python3-pip
