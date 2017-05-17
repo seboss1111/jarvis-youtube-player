@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Install pip (needed to install and upgrade youtube video downloader)
-[[ -z $(which python-pip) ]] && sudo apt-get --yes --force-yes install python-pip
-[[ -z $(which python3-pip) ]] && sudo apt-get --yes --force-yes install python3-pip
+[[ -z $(which pip) ]] && sudo apt-get --yes --force-yes install python-pip
+[[ -z $(which pip3) ]] && sudo apt-get --yes --force-yes install python3-pip
 
 # Install Youtube video downloader (Youtube-dl)
 [[ -z $(which youtube-dl) ]] && sudo add-apt-repository ppa:rvm/smplayer -y ; sudo apt-get update ; sudo apt-get --yes --force-yes install youtube-dl
